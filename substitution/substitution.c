@@ -45,7 +45,7 @@ string report_error()
 bool validate_key(string str)
 {
     bool mapping[CHAR_COUNT];
-    for(int i = 0; i < CHAR_COUNT; i++)
+    for (int i = 0; i < CHAR_COUNT; i++)
     {
         mapping[i] = false;
     }
