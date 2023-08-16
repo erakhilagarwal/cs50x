@@ -1,0 +1,4 @@
+#run following command in terminal to collect time of various sort programs in time_sort* files
+
+for file in sorted5000.txt sorted10000.txt sorted50000.txt random5000.txt random10000.txt random50000.txt reversed5000.txt reversed10000.txt reversed50000.txt; do echo sort1 $file >>time_sort1; (time ./sort1 $file > /dev/null;) 2>&1 | grep -e real -e user -e sys >> time_sort1; echo sort2 $file >>time_sort2; (time ./sort2 $file > /dev/null;) 2>&1 | grep -e real -e user -e sys >> time_sort2; echo so
+rt3 $file >>time_sort3; (time ./sort3 $file > /dev/null;) 2>&1 | grep -e real -e user -e sys >> time_sort3; done
