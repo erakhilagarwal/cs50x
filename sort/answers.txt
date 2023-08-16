@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Performs well for sorted files compared to random and reversed files as compared to sort3. Complexity like O(n^2) and Omega(n)
+
+sort2 uses: merge sort
+
+How do you know?: fastest algorithm for all files compared to others. Complexity like O(n log(n)) and Omega(n log(n))
+
+sort3 uses: selection sort
+
+How do you know?: Performs statically as per complexity of O(n^2) and Omega(n^2) for all cases.
